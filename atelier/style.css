@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+}
+
+nav{
+background-color: #f76c6c;
+height:5rem;
+}
+
+.logo{
+    color:white;
+}
+
+.pages{
+    display:flex;
+    color:white;
+    justify-content:flex-start;
+    gap:1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ h1{
+    color: white;
+    height:250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image:url(chat.jpg);
+    background-position-x: center;
+ }
+
+ main{
+
+    background-color: whitesmoke;
+ }
+
+ .section1{
+     line-height: 1.5rem;
+     font-family:verdana;
+     max-width: 65ch;
+     margin:auto;
+     padding:auto;
+ }
+
+ .section2{
+     width:auto;
+     margin:auto;
+ }
+
+ .featured{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:25rem;
+     
+ }
+
+ div{
+     display:flex;
+     justify-content:space-evenly;
+     flex-wrap:wrap;
+     margin:0 10rem 10rem 10rem;
+     padding:0 10rem 10rem 10rem;
+ }
+
+ Article{
+     border-radius:10%;
+     font-style:bold;
+     font-size:1.25rem;
+     padding:4rem 4rem 4rem 0;
+     width:20rem;
+     margin-top:2rem;
+     background-color:white;
+     font-weight:bold;
+
+ }
+
+ footer{
+    background-color:#f76c6c;
+    margin:0;
+}
